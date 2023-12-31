@@ -52,24 +52,6 @@ local s = add(1,2)
 print(s)
 ```
 
-You can type-check it with
-
-```
-tl check add.tl
-```
-
-You can convert it to Lua with
-
-```
-tl gen add.tl
-```
-
-This will produce add.lua. But you can also run it directly with
-
-```
-tl run add.tl
-```
-
 We can also write modules in Teal which we can load from Lua. Let's create our
 first module:
 
